@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class EndLevel : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    //The canvas that displays the information
+    [SerializeField]
+    GameObject mainInformationCanvas;
+    //Assessment
+    [SerializeField]
+    GameObject assessment;
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.name == "PlayerOne" && col.name == "PlayerTwo")
+        {
+            mainInformationCanvas.SetActive(false);
+            assessment.SetActive(true);
+        }
+    }
 }
