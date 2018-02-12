@@ -37,8 +37,6 @@ GameObject:
   - component: {fileID: 212884706618764684}
   - component: {fileID: 61429710667306820}
   - component: {fileID: 50658234471452292}
-  - component: {fileID: 114218665904940808}
-  - component: {fileID: 95280004701002646}
   - component: {fileID: 114636152258519666}
   m_Layer: 0
   m_Name: PlayerTwo
@@ -54,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275830403269274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.099, y: -3.684, z: 0}
+  m_LocalPosition: {x: -7.132, y: -4.279, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children:
   - {fileID: 4731095895723454}
@@ -93,7 +91,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &61429710667306820
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -119,39 +117,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!95 &95280004701002646
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1275830403269274}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 313a61fddb32c2b42b89819caee73511, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114218665904940808
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1275830403269274}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262a21e78715e1e47906ba3d6b23908e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  facingRight: 1
-  jump: 0
-  moveForce: 365
-  maxSpeed: 1
-  jumpForce: 300
 --- !u!114 &114636152258519666
 MonoBehaviour:
   m_ObjectHideFlags: 1
