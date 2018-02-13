@@ -909,7 +909,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correlation Maze
+  m_Text: Correlation Corridors
 --- !u!222 &1308541950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1370,14 +1370,15 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 100
+    m_MaxSize: 200
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Research and Stuff
+  m_Text: "David Beaudoin\t\t\t\t\t\t\t\tAlex Fredrich\n\nJacob Kryca\t\t\t\t\t\t\t\t\t\tAlexis
+    Lellios\n\nWilliam Rossi\n\n\nhttps://www.merriam-webster.com/dictionary/correlation\n\nhttps://www.thoughtco.com/what-is-correlation-analysis-3026696\n\nhttps://www.teambonding.com/reasons-for-team-building/"
 --- !u!222 &1827773275
 CanvasRenderer:
   m_ObjectHideFlags: 0
