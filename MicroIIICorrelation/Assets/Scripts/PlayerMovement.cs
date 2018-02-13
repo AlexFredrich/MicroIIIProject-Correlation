@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour {
         verticalAxis = string.Format("{0}-Vertical", playerID);
 
         //Getting reference to the rigidbody
-        rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
 
 	}
 	
@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour {
     private void Jump()
     {
         //verticalInput = Input.GetAxis(verticalAxis);
-        pressedButton = Input.GetButton(verticalAxis);
+        pressedButton = Input.GetButtonUp(verticalAxis);
         if(pressedButton && grounded)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpHeight * Time.deltaTime);
